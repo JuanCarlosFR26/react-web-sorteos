@@ -1,0 +1,36 @@
+header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    background-color: #222222;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+    font-size: 28px;
+}
+
+ul .pagination {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+ul .pagination li a {
+    color: #fff;
+}
+
+ul .credentials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
