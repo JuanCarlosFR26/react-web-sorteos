@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { gallery } from '../assets/gallery';
 import '../styles/home.css'
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -17,10 +18,13 @@ const Home = () => {
   }, [])
 
   return (
-    <div className='carousel'>
+    <div>
+      <div className='carousel'>
         <h1>{gallery[currentIndex].title}</h1>
         <img src={gallery[currentIndex].img} alt='img'></img>
         <p>{gallery[currentIndex].subtitle}</p>
+    </div>
+    <Footer />
     </div>
   )
 }

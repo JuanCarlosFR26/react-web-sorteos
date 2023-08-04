@@ -2,7 +2,7 @@ header {
     width: 100vw;
     height: 78px;
     display: flex;
-    background-color: #222222;
+    background-color: #000000;
 }
 
 nav {
@@ -16,7 +16,7 @@ ul {
     display: flex;
     width: 80vw;
     justify-content: space-evenly;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 ul .pagination {
@@ -33,7 +33,6 @@ ul .pagination li a {
 
 ul .credentials {
     display: flex;
-    /* justify-content: space-evenly; */
     width: 20%;
 }
 
@@ -44,7 +43,6 @@ ul .credentials li a {
 
 ul .credentials li a.signup {
     padding: 8px;
-    /* background-color: #dd9f0d; */
     border-radius: 12px;
 }
 
@@ -65,13 +63,3 @@ ul .pagination li a:hover {
     outline: 1px solid #dd9f0d;
     color: #222222;
 }
-
-/* li a.active::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #dd9f0d;
-    bottom: 0;
-    left: 0;
-} */
