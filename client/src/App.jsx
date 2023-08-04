@@ -3,6 +3,7 @@ import Layout from "./layout/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Info from "./pages/Info";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />}/>
           <Route path="info" element={<Info />}/>
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

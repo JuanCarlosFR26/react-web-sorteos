@@ -1,0 +1,35 @@
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel h1 {
+    position: absolute;
+    color: #fff;
+    top: 100px;
+    left: 200px;
+    font-size: 88px;
+    padding: 12px;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 3px solid #fff;
+}
+
+.carousel p {
+    position: absolute;
+    color: #fff;
+    top: 260px;
+    left: 220px;
+    font-size: 30px;
+    padding: 12px;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 3px solid #fff;
+}
+
+.carousel img {
+    width: 100vw;
+    height: 100vh;
+}
