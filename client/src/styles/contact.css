@@ -1,0 +1,102 @@
+#contact {
+    padding-top: 80px;
+    height: 100vh;
+    background-color: #1B1A17;
+}
+
+#contact h5 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#contact .container.contact_container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+#contact h2 {
+    font-size: 32px;
+    color: #fff;
+}
+
+#contact .container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+#contact .container .contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact .container .contact_options .contact_option {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    padding: 4px;
+    gap: 16px;
+    background-color: #F0A500;
+    border-radius: 16px;
+    flex-direction: column;
+    border: none;
+    cursor: pointer;
+}
+
+#contact .container .contact_options .contact_option:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+}
+
+#contact .container .contact_options .contact_option .contact_option-icon {
+    color: #fff;
+    font-size: 20px;
+}
+
+#contact .container .contact_options .contact_option h4 {
+    font-size: 18px;
+    color: #fff;
+}
+
+#contact .container .contact_options .contact_option a {
+    color: #876445;
+    font-weight: 600;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #F0A500;
+    resize: none;
+    color: #fff;
+}
+
+form button {
+    width: 200px;
+    height: 48px;
+    border-radius: .5rem;
+    border: none;
+    background-color: #F0A500;
+    font-weight: 600;
+}
+
+form button:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
