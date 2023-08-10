@@ -1,0 +1,55 @@
+.signup_form {
+    width: 100vw;
+    height: 100vh;
+    background: url('../assets/welcomesignup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup_form  .form_signup  {
+    width: 480px;
+    display: flex;
+    gap: 50px;
+    padding: 34px;
+    background-color: rgba(255, 255, 255, .30);
+    box-shadow: 8px 8px 8px 0 rgba(100, 100, 100, 0.37);
+    backdrop-filter: blur( 2px );
+    border: 2px solid rgba(183, 151, 10, 1);
+    border-radius: 22px;
+}
+
+.signup_form .form_signup .input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.signup_form .form_signup .input_container label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.signup_form .form_signup .input_container input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 18px;
+}
+
+.signup_form .form_signup input[type="submit"] {
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    border: 1px solid #fff;
+    font-size: 18px;
+}
+
+.signup_form .form_signup input[type="submit"]:hover {
+    background-color: #000;
+    cursor: pointer;
+}

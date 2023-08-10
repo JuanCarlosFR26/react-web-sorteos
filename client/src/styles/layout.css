@@ -2,7 +2,7 @@ header {
     width: 100vw;
     height: 78px;
     display: flex;
-    background-color: #000000;
+    background-color: rgba(20, 20, 20, .8);
 }
 
 nav {
